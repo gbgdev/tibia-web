@@ -3488,9 +3488,9 @@ pbkdf2@^3.0.3:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
-phaser@3.12.0:
-  version "3.12.0"
-  resolved "https://registry.yarnpkg.com/phaser/-/phaser-3.12.0.tgz#7cc14480694b0bad13f1f6ede584ea8371a055da"
+phaser@3.13.0:
+  version "3.13.0"
+  resolved "https://registry.yarnpkg.com/phaser/-/phaser-3.13.0.tgz#75242ee62ff3934e634e920dd61f25eaa05310c7"
   dependencies:
     eventemitter3 "^3.1.0"
 
@@ -4569,10 +4569,6 @@ watchpack@^1.5.0:
     chokidar "^2.0.2"
     graceful-fs "^4.1.2"
     neo-async "^2.5.0"
-
-webfontloader@^1.6.28:
-  version "1.6.28"
-  resolved "https://registry.yarnpkg.com/webfontloader/-/webfontloader-1.6.28.tgz#db786129253cb6e8eae54c2fb05f870af6675bae"
 
 webpack-cli@^3.1.0:
   version "3.1.1"
