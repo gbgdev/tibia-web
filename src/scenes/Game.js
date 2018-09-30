@@ -3,10 +3,6 @@ import Player from '../sprites/Player';
 
 const tilemapJSON = require('../map/map.json');
 
-let player;
-let worldLayer;
-let cursors;
-
 export default class extends Phaser.Scene {
   constructor () {
     super({ key: 'GameScene' })
@@ -25,9 +21,9 @@ export default class extends Phaser.Scene {
     const tileset = map.addTilesetImage('sprite_01', 'sprite_01');
     const belowLayer = map.createStaticLayer('Below Player', tileset, 0, 0);
 
-    worldLayer = map.createStaticLayer('World', tileset, 0, 0);
+    this.worldLayer = map.createStaticLayer('World', tileset, 0, 0);
 
-    worldLayer.setCollisionByProperty({ collides: true });
+    this.worldLayer.setCollisionByProperty({ collides: true });
 
     const spawnPoint = map.findObject("Objects", obj => obj.name === "Spawn Point");
 
@@ -40,7 +36,6 @@ export default class extends Phaser.Scene {
     });
 
     this.cameras.main.startFollow(this.player);
-    this.cameras.main.roundPixels = true;
   }
 
   update (time, delta) {

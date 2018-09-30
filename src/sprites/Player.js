@@ -10,23 +10,59 @@ export default class Player extends Phaser.GameObjects.Sprite {
   }
 
   update(time, delta) {
+    if (this.isMoving === true) return;
+
     const cursors = this.scene.input.keyboard.createCursorKeys();
 
-    this.body.setVelocity(0);
-
-    if (cursors.left.isDown) {
-      this.body.setVelocityX(-200);
-    }
-    else if (cursors.right.isDown) {
-      this.body.setVelocityX(200);
-    }
     if (cursors.up.isDown) {
-      this.body.setVelocityY(-200);
+      this.moveUp();
     }
     else if (cursors.down.isDown) {
-      this.body.setVelocityY(200);
+      this.moveDown();
     }
+    if (cursors.left.isDown) {
+      this.moveLeft();
+    }
+    else if (cursors.right.isDown) {
+      this.moveRight();
+    }
+  }
 
-    this.body.velocity.normalize().scale(200);
+  moveUp() {
+    this.move(this.x, this.y - 32);
+  }
+
+  moveDown() {
+    this.move(this.x, this.y + 32);
+  }
+
+  moveLeft() {
+    this.move(this.x - 32, this.y);
+  }
+
+  moveRight() {
+    this.move(this.x + 32, this.y);
+  }
+
+  move (x, y) {
+    this.scene.add.tween({
+      targets: [this],
+      ease: 'Sine.easeInOut',
+      duration: 800,
+      delay: 0,
+      x: {
+        getStart: () => this.x,
+        getEnd: () => x,
+      },
+      y: {
+        getStart: () => this.y,
+        getEnd: () => y,
+      },
+      onComplete: () => {
+        this.isMoving = false;
+      }
+    });
+
+    this.isMoving = true;
   }
 }
