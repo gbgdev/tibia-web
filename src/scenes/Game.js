@@ -34,7 +34,7 @@ export default class extends Phaser.Scene {
     this.player = new Player({
       scene: this,
       x: spawnPoint.x,
-      x: spawnPoint.y,
+      y: spawnPoint.y,
       frame: 136,
       key: 'player'
     });
