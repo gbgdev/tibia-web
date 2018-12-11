@@ -9,7 +9,7 @@ export default class Player extends Phaser.GameObjects.Sprite {
     config.scene.add.existing(this);
   }
 
-  update(time, delta) {
+  update(time, delta, global) {
     if (this.isMoving === true) return;
 
     const cursors = this.scene.input.keyboard.createCursorKeys();
@@ -29,26 +29,38 @@ export default class Player extends Phaser.GameObjects.Sprite {
   }
 
   moveUp() {
-    this.setFrame('sprite-212.png');
-    this.move(this.x, this.y - 32);
+    this.anims.play("playerMoveUp");
+    this.move(this.x, this.y - 32, function(instance) {
+      instance.anims.stop('playerMoveUp');
+      instance.setFrame('up.png');
+    });
   }
 
   moveDown() {
-    this.setFrame('sprite-216.png');
-    this.move(this.x, this.y + 32);
+    this.anims.play("playerMoveDown");
+    this.move(this.x, this.y + 32, function(instance) {
+      instance.anims.stop('playerMoveDown');
+      instance.setFrame('down.png');
+    });
   }
 
   moveLeft() {
-    this.setFrame('sprite-218.png');
-    this.move(this.x - 32, this.y);
+    this.anims.play("playerMoveLeft");
+    this.move(this.x - 32, this.y, function(instance) {
+      instance.anims.stop('playerMoveLeft');
+      instance.setFrame('left.png');
+    });
   }
 
   moveRight() {
-    this.setFrame('sprite-214.png');
-    this.move(this.x + 32, this.y);
+    this.anims.play('playerMoveRight');
+    this.move(this.x + 32, this.y, function(instance) {
+      instance.anims.stop('playerMoveRight');
+      instance.setFrame('right.png');
+    });
   }
 
-  move (x, y) {
+  move (x, y, callback) {
     this.scene.add.tween({
       targets: [this],
       ease: 'Sine.easeInOut',
@@ -64,6 +76,7 @@ export default class Player extends Phaser.GameObjects.Sprite {
       },
       onComplete: () => {
         this.isMoving = false;
+        callback(this);
       }
     });
 
