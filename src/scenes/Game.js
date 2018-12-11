@@ -11,9 +11,8 @@ export default class extends Phaser.Scene {
   init () {}
   preload () {
     this.load.image('sprite_01', '/assets/images/sprite_01.png');
-    this.load.image('sprite_02', '/assets/images/sprite_02.png');
     this.load.tilemapTiledJSON('map', tilemapJSON);
-    this.load.spritesheet('player', '/assets/images/sprite_02.png', { frameWidth: 32, frameHeight: 32 });
+    this.load.atlas('sprites', '/assets/images/sprites.png', '/assets/images/sprites.json');
   }
 
   create () {
@@ -31,8 +30,8 @@ export default class extends Phaser.Scene {
       scene: this,
       x: spawnPoint.x,
       y: spawnPoint.y,
-      frame: 136,
-      key: 'player'
+      frame: 'sprite-212.png',
+      key: 'sprites'
     });
 
     this.cameras.main.startFollow(this.player);

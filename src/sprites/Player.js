@@ -29,18 +29,22 @@ export default class Player extends Phaser.GameObjects.Sprite {
   }
 
   moveUp() {
+    this.setFrame('sprite-212.png');
     this.move(this.x, this.y - 32);
   }
 
   moveDown() {
+    this.setFrame('sprite-216.png');
     this.move(this.x, this.y + 32);
   }
 
   moveLeft() {
+    this.setFrame('sprite-218.png');
     this.move(this.x - 32, this.y);
   }
 
   moveRight() {
+    this.setFrame('sprite-214.png');
     this.move(this.x + 32, this.y);
   }
 
