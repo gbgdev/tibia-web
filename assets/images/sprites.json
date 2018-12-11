@@ -10,7 +10,7 @@
 			"scale": 1,
 			"frames": [
 				{
-					"filename": "sprite-212.png",
+					"filename": "02.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -31,7 +31,7 @@
 					}
 				},
 				{
-					"filename": "sprite-214.png",
+					"filename": "03.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -52,7 +52,7 @@
 					}
 				},
 				{
-					"filename": "sprite-216.png",
+					"filename": "10.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -73,7 +73,7 @@
 					}
 				},
 				{
-					"filename": "sprite-218.png",
+					"filename": "11.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -94,7 +94,7 @@
 					}
 				},
 				{
-					"filename": "sprite-220.png",
+					"filename": "down.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -115,7 +115,7 @@
 					}
 				},
 				{
-					"filename": "sprite-222.png",
+					"filename": "left.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -136,7 +136,7 @@
 					}
 				},
 				{
-					"filename": "sprite-224.png",
+					"filename": "moveDown/001.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -157,7 +157,7 @@
 					}
 				},
 				{
-					"filename": "sprite-226.png",
+					"filename": "moveDown/002.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -178,7 +178,7 @@
 					}
 				},
 				{
-					"filename": "sprite-228.png",
+					"filename": "moveLeft/001.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -199,7 +199,7 @@
 					}
 				},
 				{
-					"filename": "sprite-230.png",
+					"filename": "moveLeft/002.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -220,7 +220,7 @@
 					}
 				},
 				{
-					"filename": "sprite-232.png",
+					"filename": "moveRight/001.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -241,7 +241,7 @@
 					}
 				},
 				{
-					"filename": "sprite-234.png",
+					"filename": "moveRight/002.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -262,7 +262,7 @@
 					}
 				},
 				{
-					"filename": "sprite-237.png",
+					"filename": "moveUp/001.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -283,7 +283,7 @@
 					}
 				},
 				{
-					"filename": "sprite-238.png",
+					"filename": "moveUp/002.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -304,7 +304,7 @@
 					}
 				},
 				{
-					"filename": "sprite-245.png",
+					"filename": "right.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -325,7 +325,7 @@
 					}
 				},
 				{
-					"filename": "sprite-246.png",
+					"filename": "up.png",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -346,7 +346,7 @@
 					}
 				},
 				{
-					"filename": "sprite-236.png",
+					"filename": "01.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -367,7 +367,7 @@
 					}
 				},
 				{
-					"filename": "sprite-240.png",
+					"filename": "05.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -388,7 +388,7 @@
 					}
 				},
 				{
-					"filename": "sprite-242.png",
+					"filename": "07.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -409,7 +409,7 @@
 					}
 				},
 				{
-					"filename": "sprite-239.png",
+					"filename": "04.png",
 					"rotated": true,
 					"trimmed": true,
 					"sourceSize": {
@@ -430,7 +430,7 @@
 					}
 				},
 				{
-					"filename": "sprite-241.png",
+					"filename": "06.png",
 					"rotated": true,
 					"trimmed": true,
 					"sourceSize": {
@@ -451,7 +451,7 @@
 					}
 				},
 				{
-					"filename": "sprite-243.png",
+					"filename": "08.png",
 					"rotated": true,
 					"trimmed": true,
 					"sourceSize": {
@@ -472,7 +472,7 @@
 					}
 				},
 				{
-					"filename": "sprite-244.png",
+					"filename": "09.png",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -493,7 +493,7 @@
 					}
 				},
 				{
-					"filename": "sprite-247.png",
+					"filename": "12.png",
 					"rotated": true,
 					"trimmed": true,
 					"sourceSize": {
@@ -519,6 +519,6 @@
 	"meta": {
 		"app": "https://www.codeandweb.com/texturepacker",
 		"version": "3.0",
-		"smartupdate": "$TexturePacker:SmartUpdate:80402d9958555d1242ea28e12091231d:d5baf0448e315fc52338ab4cb2485b4f:1eabdf11f75e3a4fe3147baf7b5be24b$"
+		"smartupdate": "$TexturePacker:SmartUpdate:f96ccf7d4a91f920ed0de0bd5055de14:ed28ba419f38343ee5adb0969ae0ae75:1eabdf11f75e3a4fe3147baf7b5be24b$"
 	}
 }

@@ -181,30 +181,30 @@
         </struct>
         <key>individualSpriteSettings</key>
         <map type="IndividualSpriteSettingsMap">
-            <key type="filename">separated assets/sprite-212.png</key>
-            <key type="filename">separated assets/sprite-214.png</key>
-            <key type="filename">separated assets/sprite-216.png</key>
-            <key type="filename">separated assets/sprite-218.png</key>
-            <key type="filename">separated assets/sprite-220.png</key>
-            <key type="filename">separated assets/sprite-222.png</key>
-            <key type="filename">separated assets/sprite-224.png</key>
-            <key type="filename">separated assets/sprite-226.png</key>
-            <key type="filename">separated assets/sprite-228.png</key>
-            <key type="filename">separated assets/sprite-230.png</key>
-            <key type="filename">separated assets/sprite-232.png</key>
-            <key type="filename">separated assets/sprite-234.png</key>
-            <key type="filename">separated assets/sprite-236.png</key>
-            <key type="filename">separated assets/sprite-237.png</key>
-            <key type="filename">separated assets/sprite-238.png</key>
-            <key type="filename">separated assets/sprite-239.png</key>
-            <key type="filename">separated assets/sprite-240.png</key>
-            <key type="filename">separated assets/sprite-241.png</key>
-            <key type="filename">separated assets/sprite-242.png</key>
-            <key type="filename">separated assets/sprite-243.png</key>
-            <key type="filename">separated assets/sprite-244.png</key>
-            <key type="filename">separated assets/sprite-245.png</key>
-            <key type="filename">separated assets/sprite-246.png</key>
-            <key type="filename">separated assets/sprite-247.png</key>
+            <key type="filename">separated assets/player/01.png</key>
+            <key type="filename">separated assets/player/02.png</key>
+            <key type="filename">separated assets/player/03.png</key>
+            <key type="filename">separated assets/player/04.png</key>
+            <key type="filename">separated assets/player/05.png</key>
+            <key type="filename">separated assets/player/06.png</key>
+            <key type="filename">separated assets/player/07.png</key>
+            <key type="filename">separated assets/player/08.png</key>
+            <key type="filename">separated assets/player/09.png</key>
+            <key type="filename">separated assets/player/10.png</key>
+            <key type="filename">separated assets/player/11.png</key>
+            <key type="filename">separated assets/player/12.png</key>
+            <key type="filename">separated assets/player/down.png</key>
+            <key type="filename">separated assets/player/left.png</key>
+            <key type="filename">separated assets/player/moveDown/001.png</key>
+            <key type="filename">separated assets/player/moveDown/002.png</key>
+            <key type="filename">separated assets/player/moveLeft/001.png</key>
+            <key type="filename">separated assets/player/moveLeft/002.png</key>
+            <key type="filename">separated assets/player/moveRight/001.png</key>
+            <key type="filename">separated assets/player/moveRight/002.png</key>
+            <key type="filename">separated assets/player/moveUp/001.png</key>
+            <key type="filename">separated assets/player/moveUp/002.png</key>
+            <key type="filename">separated assets/player/right.png</key>
+            <key type="filename">separated assets/player/up.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
@@ -220,30 +220,7 @@
         </map>
         <key>fileList</key>
         <array>
-            <filename>separated assets/sprite-247.png</filename>
-            <filename>separated assets/sprite-246.png</filename>
-            <filename>separated assets/sprite-245.png</filename>
-            <filename>separated assets/sprite-244.png</filename>
-            <filename>separated assets/sprite-243.png</filename>
-            <filename>separated assets/sprite-242.png</filename>
-            <filename>separated assets/sprite-241.png</filename>
-            <filename>separated assets/sprite-240.png</filename>
-            <filename>separated assets/sprite-239.png</filename>
-            <filename>separated assets/sprite-238.png</filename>
-            <filename>separated assets/sprite-237.png</filename>
-            <filename>separated assets/sprite-236.png</filename>
-            <filename>separated assets/sprite-212.png</filename>
-            <filename>separated assets/sprite-214.png</filename>
-            <filename>separated assets/sprite-216.png</filename>
-            <filename>separated assets/sprite-218.png</filename>
-            <filename>separated assets/sprite-220.png</filename>
-            <filename>separated assets/sprite-222.png</filename>
-            <filename>separated assets/sprite-224.png</filename>
-            <filename>separated assets/sprite-226.png</filename>
-            <filename>separated assets/sprite-228.png</filename>
-            <filename>separated assets/sprite-230.png</filename>
-            <filename>separated assets/sprite-232.png</filename>
-            <filename>separated assets/sprite-234.png</filename>
+            <filename>separated assets/player</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>
